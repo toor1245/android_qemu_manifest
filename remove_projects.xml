@@ -35,8 +35,6 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
-  <remove-project name="external/chromium-webview" />
-
   <remove-project name="kernel/prebuilts/6.1/x86-64" />
   <remove-project name="kernel/prebuilts/6.6/x86-64" />
   <remove-project name="kernel/prebuilts/6.12/x86-64" />
@@ -47,6 +45,8 @@
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" />
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" />
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" />
+
+  <remove-project name="platform/external/chromium-webview" />
 
   <remove-project name="platform/packages/modules/AdServices" />
   <remove-project name="platform/packages/modules/AppSearch" />
