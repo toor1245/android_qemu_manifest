@@ -683,33 +683,7 @@
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,sysui-studio" clone-depth="1" />
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" />
-  <project path="prebuilts/module_sdk/AdServices" name="platform/prebuilts/module_sdk/AdServices" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" />
-  <project path="prebuilts/module_sdk/AppSearch" name="platform/prebuilts/module_sdk/AppSearch" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Bluetooth" name="platform/prebuilts/module_sdk/Bluetooth" clone-depth="1" />
-  <project path="prebuilts/module_sdk/conscrypt" name="platform/prebuilts/module_sdk/conscrypt" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" />
-  <project path="prebuilts/module_sdk/ConfigInfrastructure" name="platform/prebuilts/module_sdk/ConfigInfrastructure" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Connectivity" name="platform/prebuilts/module_sdk/Connectivity" clone-depth="1" />
-  <project path="prebuilts/module_sdk/CrashRecovery" name="platform/prebuilts/module_sdk/CrashRecovery" clone-depth="1" />
-  <project path="prebuilts/module_sdk/DeviceLock" name="platform/prebuilts/module_sdk/DeviceLock" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" />
-  <project path="prebuilts/module_sdk/HealthFitness" name="platform/prebuilts/module_sdk/HealthFitness" clone-depth="1" />
-  <project path="prebuilts/module_sdk/IPsec" name="platform/prebuilts/module_sdk/IPsec" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Media" name="platform/prebuilts/module_sdk/Media" clone-depth="1" />
-  <project path="prebuilts/module_sdk/MediaProvider" name="platform/prebuilts/module_sdk/MediaProvider" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Nfc" name="platform/prebuilts/module_sdk/Nfc" clone-depth="1" />
-  <project path="prebuilts/module_sdk/NpuManager" name="platform/prebuilts/module_sdk/NpuManager" clone-depth="1" />
-  <project path="prebuilts/module_sdk/OnDevicePersonalization" name="platform/prebuilts/module_sdk/OnDevicePersonalization" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Permission" name="platform/prebuilts/module_sdk/Permission" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Profiling" name="platform/prebuilts/module_sdk/Profiling" clone-depth="1" />
-  <project path="prebuilts/module_sdk/RemoteKeyProvisioning" name="platform/prebuilts/module_sdk/RemoteKeyProvisioning" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Scheduling" name="platform/prebuilts/module_sdk/Scheduling" clone-depth="1" />
   <project path="prebuilts/module_sdk/SdkExtensions" name="platform/prebuilts/module_sdk/SdkExtensions" clone-depth="1" />
-  <project path="prebuilts/module_sdk/StatsD" name="platform/prebuilts/module_sdk/StatsD" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Telephony" name="platform/prebuilts/module_sdk/Telephony" clone-depth="1"/>
-  <project path="prebuilts/module_sdk/UprobeStats" name="platform/prebuilts/module_sdk/UprobeStats" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Uwb" name="platform/prebuilts/module_sdk/Uwb" clone-depth="1" />
-  <project path="prebuilts/module_sdk/WebApp" name="platform/prebuilts/module_sdk/WebApp" clone-depth="1" />
-  <project path="prebuilts/module_sdk/WebViewBootstrap" name="platform/prebuilts/module_sdk/WebViewBootstrap" clone-depth="1" />
-  <project path="prebuilts/module_sdk/Wifi" name="platform/prebuilts/module_sdk/Wifi" clone-depth="1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" groups="pdk,sysui-studio" clone-depth="1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
