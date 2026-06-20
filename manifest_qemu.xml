@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+
+  <project path="device/generic/qemu" name="toor1245/android_device_generic_qemu" remote="github" revision="android-17.0" />
+
+</manifest>
