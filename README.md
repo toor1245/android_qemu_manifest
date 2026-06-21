@@ -5,8 +5,16 @@
 ```shell
 repo init \
     -u https://android.googlesource.com/platform/manifest \
-    -b android-17.0.0_r1 --depth=1
+    -b android-17.0.0_r1 --depth=1 \
+    --partial-clone \
+    --clone-filter=blob:none \
+    -g default,-darwin,-windows
 ```
+
+- --depth=1: Only fetches the very latest commit, ignoring years of history.
+- --partial-clone --clone-filter=blob:none: Downloads the git tree structure but skips downloading the actual file contents until the moment checkout needs them.
+- -g default,-darwin,-windows: Instructs repo at the manifest level to completely ignore Mac and Windows prebuilts.
+- -c --no-clone-bundle --no-tags: Syncs only the current branch and ignores heavy server-side bundles and tags.
 
 2. Download device/generic/qemu manifest 
 
