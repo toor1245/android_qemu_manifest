@@ -1,4 +1,4 @@
-# Download AOSP
+## Download AOSP
 
 1. Download android 17 manifest
 
@@ -27,4 +27,12 @@ curl -o .repo/local_manifests/remove_projects.xml \
 
 ```shell
 repo sync
+```
+
+### Note:
+
+Delete any projects that are no longer defined in the manifest
+
+```shell
+repo sync -c --prune --force-sync
 ```
